@@ -1,0 +1,4 @@
+npx sequelize init
+sequelize db:create
+sequelize db:migrate
+npx sequelize  model:generate --name User --attributes firstname:string,lastname:string,email:string,password:string
