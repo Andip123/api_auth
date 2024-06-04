@@ -1,5 +1,5 @@
 const auth = require('./auth')
-const produks = require('./produks')
+const product = require('./product')
 
 
-module.exports={auth,produks}
+module.exports={auth,product}

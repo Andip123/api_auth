@@ -20,3 +20,7 @@ Content-Type: application/json
     "email": "joyo@gmail.com",
     "password": "joyo"
 }
+
+###
+POST http://localhost:5000/auth/product
+Content-Type: application/json
